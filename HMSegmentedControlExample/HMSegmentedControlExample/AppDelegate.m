@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "MoreExampleViewController.h"
 
 @implementation AppDelegate
 
@@ -16,9 +17,19 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewController = [[ViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    
+    UIBarButtonItem *moreBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"More" style:UIBarButtonItemStylePlain target:self action:@selector(doMore:)];
+    self.viewController.navigationItem.rightBarButtonItem = moreBarButtonItem;
+    
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)doMore:(id)sender
+{
+    MoreExampleViewController *more = [[MoreExampleViewController alloc] init];
+    [((UINavigationController *)self.window.rootViewController) pushViewController:more animated:YES];
 }
 
 @end

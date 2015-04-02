@@ -33,6 +33,7 @@
 		54F05AE91689D34A0064FCE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F05AE81689D34A0064FCE1 /* AppDelegate.m */; };
 		54F05AF21689D34B0064FCE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F05AF11689D34B0064FCE1 /* ViewController.m */; };
 		54F05B001689D38C0064FCE1 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F05AFF1689D38C0064FCE1 /* HMSegmentedControl.m */; };
+		DA63BEF41ACD2E4200C54233 /* MoreExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA63BEF31ACD2E4200C54233 /* MoreExampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		54F05AFB1689D3650064FCE1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		54F05AFE1689D38C0064FCE1 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = HMSegmentedControl.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		54F05AFF1689D38C0064FCE1 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		DA63BEF21ACD2E4200C54233 /* MoreExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreExampleViewController.h; sourceTree = "<group>"; };
+		DA63BEF31ACD2E4200C54233 /* MoreExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreExampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 			children = (
 				54F05AFE1689D38C0064FCE1 /* HMSegmentedControl.h */,
 				54F05AFF1689D38C0064FCE1 /* HMSegmentedControl.m */,
+				DA63BEF21ACD2E4200C54233 /* MoreExampleViewController.h */,
+				DA63BEF31ACD2E4200C54233 /* MoreExampleViewController.m */,
 			);
 			name = HMSegmentedControl;
 			path = ../../HMSegmentedControl;
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA63BEF41ACD2E4200C54233 /* MoreExampleViewController.m in Sources */,
 				54F05AE51689D34A0064FCE1 /* main.m in Sources */,
 				54F05AE91689D34A0064FCE1 /* AppDelegate.m in Sources */,
 				54F05AF21689D34B0064FCE1 /* ViewController.m in Sources */,
