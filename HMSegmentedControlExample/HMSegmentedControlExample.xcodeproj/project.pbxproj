@@ -69,8 +69,8 @@
 		54F05AFB1689D3650064FCE1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		54F05AFE1689D38C0064FCE1 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = HMSegmentedControl.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		54F05AFF1689D38C0064FCE1 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
-		DA63BEF21ACD2E4200C54233 /* MoreExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreExampleViewController.h; path = ../../HMSegmentedControl/MoreExampleViewController.h; sourceTree = "<group>"; };
-		DA63BEF31ACD2E4200C54233 /* MoreExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreExampleViewController.m; path = ../../HMSegmentedControl/MoreExampleViewController.m; sourceTree = "<group>"; };
+		DA63BEF21ACD2E4200C54233 /* MoreExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreExampleViewController.h; path = ../MoreExampleViewController.h; sourceTree = "<group>"; };
+		DA63BEF31ACD2E4200C54233 /* MoreExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreExampleViewController.m; path = ../MoreExampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,13 +119,13 @@
 		54F05ADE1689D34A0064FCE1 /* HMSegmentedControlExample */ = {
 			isa = PBXGroup;
 			children = (
-				DA63BEF21ACD2E4200C54233 /* MoreExampleViewController.h */,
-				DA63BEF31ACD2E4200C54233 /* MoreExampleViewController.m */,
 				54F05AFD1689D38C0064FCE1 /* HMSegmentedControl */,
 				54F05AE71689D34A0064FCE1 /* AppDelegate.h */,
 				54F05AE81689D34A0064FCE1 /* AppDelegate.m */,
 				54F05AF01689D34B0064FCE1 /* ViewController.h */,
 				54F05AF11689D34B0064FCE1 /* ViewController.m */,
+				DA63BEF21ACD2E4200C54233 /* MoreExampleViewController.h */,
+				DA63BEF31ACD2E4200C54233 /* MoreExampleViewController.m */,
 				542415F41AC99E050081610C /* Launch Screen.xib */,
 				A3A4632116B6190F00AE52BA /* Images */,
 				54F05ADF1689D34A0064FCE1 /* Supporting Files */,
